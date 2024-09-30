@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sender", "Sender", "{207204A1-95CE-412F-9D58-A6AC8F45F291}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Receiver", "Receiver", "{72EE2196-5472-43F7-B842-F9CEBE16048A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.Sender", "Sender\RabbitMQExample.Sender\RabbitMQExample.Sender.csproj", "{73AC8313-1A36-4AAE-A314-56ED1975CDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.Receiver", "Receiver\RabbitMQExample.Receiver\RabbitMQExample.Receiver.csproj", "{2F49B5B3-7586-48E5-9690-31ACCA878E9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73AC8313-1A36-4AAE-A314-56ED1975CDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73AC8313-1A36-4AAE-A314-56ED1975CDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73AC8313-1A36-4AAE-A314-56ED1975CDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73AC8313-1A36-4AAE-A314-56ED1975CDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F49B5B3-7586-48E5-9690-31ACCA878E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F49B5B3-7586-48E5-9690-31ACCA878E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F49B5B3-7586-48E5-9690-31ACCA878E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F49B5B3-7586-48E5-9690-31ACCA878E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73AC8313-1A36-4AAE-A314-56ED1975CDA8} = {207204A1-95CE-412F-9D58-A6AC8F45F291}
+		{2F49B5B3-7586-48E5-9690-31ACCA878E9E} = {72EE2196-5472-43F7-B842-F9CEBE16048A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1354B419-74DC-48DD-9722-EBE74C084D84}
+	EndGlobalSection
+EndGlobal
